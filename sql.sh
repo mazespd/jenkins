@@ -1,6 +1,4 @@
-mysql --user rfamro --host mysql-rfam-public.ebi.ac.uk --port 4497 --database Rfam;
-echo 'Start'
-
+mysql --user rfamro --host mysql-rfam-public.ebi.ac.uk --port 4497 --database Rfam
 SHOW TABLES;
-
-echo 'End'
+exit;
+echo "END"
