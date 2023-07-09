@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+    nginx:
+        image: nginx:latest
+        container_name: nginx
+        volumes:
+            - ./nginx/www:/var/www
+            - ./nginx/conf:/etc/nginx/conf.d
+        ports:
+            - 9889:80
